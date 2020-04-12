@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/WinnetkaChat/precache-manifest.f7917ce864b4306ff5f483b3a5cff2c1.js"
+  "/WinnetkaChat/precache-manifest.36ef979e446dae478831d4ae57e1b67d.js"
 );
 
 self.addEventListener('message', (event) => {
