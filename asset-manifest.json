@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/WinnetkaChat/static/css/main.d8e8845a.chunk.css",
+    "main.js": "/WinnetkaChat/static/js/main.f1024690.chunk.js",
+    "main.js.map": "/WinnetkaChat/static/js/main.f1024690.chunk.js.map",
+    "runtime-main.js": "/WinnetkaChat/static/js/runtime-main.3e877029.js",
+    "runtime-main.js.map": "/WinnetkaChat/static/js/runtime-main.3e877029.js.map",
+    "static/js/2.6bf1ec1a.chunk.js": "/WinnetkaChat/static/js/2.6bf1ec1a.chunk.js",
+    "static/js/2.6bf1ec1a.chunk.js.map": "/WinnetkaChat/static/js/2.6bf1ec1a.chunk.js.map",
+    "index.html": "/WinnetkaChat/index.html",
+    "precache-manifest.f7917ce864b4306ff5f483b3a5cff2c1.js": "/WinnetkaChat/precache-manifest.f7917ce864b4306ff5f483b3a5cff2c1.js",
+    "service-worker.js": "/WinnetkaChat/service-worker.js",
+    "static/css/main.d8e8845a.chunk.css.map": "/WinnetkaChat/static/css/main.d8e8845a.chunk.css.map",
+    "static/js/2.6bf1ec1a.chunk.js.LICENSE.txt": "/WinnetkaChat/static/js/2.6bf1ec1a.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/WinnetkaChat/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e877029.js",
+    "static/js/2.6bf1ec1a.chunk.js",
+    "static/css/main.d8e8845a.chunk.css",
+    "static/js/main.f1024690.chunk.js"
+  ]
+}
