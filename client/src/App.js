@@ -538,7 +538,7 @@ class DialogContainer extends React.Component {
             <div id='containerContentTitle'>
               <span id='title'>{this.props.title}</span>
               <span>  </span>
-              <span id='titleUser'>{loggedInUser}</span>
+              {/* <span id='titleUser'>{loggedInUser}</span> */}
               <div id='cancelX'>
                 <button onClick={this.onCancel}>X</button>
               </div>
