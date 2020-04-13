@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "275de19cadd725602c3b4e3bdf7c16d0",
+    "revision": "811c3d18f27d39e0803aab4f43a89e11",
     "url": "/WinnetkaChat/index.html"
   },
   {
-    "revision": "361a4cdbedd609a82b01",
-    "url": "/WinnetkaChat/static/css/main.d8e8845a.chunk.css"
+    "revision": "cfbca85ad23e6d31497c",
+    "url": "/WinnetkaChat/static/css/main.49980d0e.chunk.css"
   },
   {
     "revision": "dc2ce9cd828a8fcfed8a",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/WinnetkaChat/static/js/2.6bf1ec1a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "361a4cdbedd609a82b01",
-    "url": "/WinnetkaChat/static/js/main.dcd273ad.chunk.js"
+    "revision": "cfbca85ad23e6d31497c",
+    "url": "/WinnetkaChat/static/js/main.3ed725c4.chunk.js"
   },
   {
     "revision": "cdcddc5a125d3e62c8d4",
