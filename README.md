@@ -1,7 +1,7 @@
 # WinnetkaChat
 Winnetka Chat
 
-Just your standard chat app using React, Websockets, and Basic HTTP Authentication. 
+Just your standard chat app using React, NodeJS/Express, Websockets, and Basic HTTP Authentication. 
 
 NOTE: Since github does not allow us to use our own server, all server communication is faked for the github version of Winnetka Chat.
 
