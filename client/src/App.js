@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import robota from './robota.jpg';
 
 let socket = null;
-let git = true; //offline use
+let git = true; //true for server-less version
 
 
 async function sendPostRequest(request, data) {
@@ -30,7 +31,7 @@ async function sendPostRequest(request, data) {
 }
 
 async function sendGetRequestLogin(request, data) {
-
+  
   try {
     const userInfo = btoa(`${data.user}:${data.password}`);
     const response = await fetch(request, {
@@ -92,7 +93,7 @@ class App extends Component {
 
     this.state = {
       data: null,
-      currentTime: 'date',
+      currentTime: '',
       messages: [],
       sendMessage: '',
       userName: '',
@@ -290,11 +291,11 @@ class App extends Component {
           <div id='headerDiv2'>
             <img src={logo} className="App-logo" alt="logo" />
             <h1 className="App-title">Winnetka Chat</h1>
-            <img src={logo} className="App-logo" alt="logo" />
+            {git ? <img style={{paddingLeft: '20px'}} src={robota} className="robota" alt="logo" /> : <img src={logo} className="App-logo" alt="logo" />}
           </div>
 
           <div id='headerDiv3'>
-            <h5 className="App-title">A place to chat about all things Winnetka! {git ? ' - with \'Robota\'' : ''}</h5>
+            <h5  className="App-title">A place to chat about all things Winnetka! {git ? ' - with \'Robota\'' : ''}</h5>
           </div>
         </header>
 
